@@ -10,7 +10,7 @@ class CustomDivCtn extends HTMLElement {
   render() {
     const template = document.createElement('template');
     template.innerHTML = `
-      <div width="500px" height="500px" style="background-color:green; width:500px; height: 500px;">
+      <div style="background-color:green; width:500px; height: 500px;">
         Put any button inside this container
         <slot name="anyButton">content</slot>
       </div>`;
